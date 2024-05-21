@@ -32,8 +32,8 @@
 | 0 | Sleeping |
 | 1 | Waking up |
 | 2 | Engaged |
-| 32 | Attacking, pre-damage |
-| 33 | Attacking, post-damage |
+| 32 | Attack, pre-damage |
+| 33 | Attack, post-damage |
 | 4 | Dead |
 | 100+ | Unique states |
 
@@ -46,8 +46,8 @@
 | 1 | 333 | Waking up (walking) |
 | 2 | 299 | Idle (1st time) |
 | 2 | 352 | Idle |
-| 32 | 35 | Attacking, pre-damage|
-| 33 | 239 | Attacking, post-damamge (hammer down) |
+| 32 | 35 | Attack, pre-damage|
+| 33 | 239 | Attack, post-damage (hammer down) |
 
 
 #### Dysangelos
