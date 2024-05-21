@@ -6,8 +6,7 @@
 - [ ] Add proper desciption about the game and about Stonescript
 - [ ] Use proper terminology for descriptions
 - [ ] Add all bosses
-- [ ] Add all foes
-- [ ] Add all weapons
+- [ ] Add all foes with special states
 - [ ] Add example code
 
 ## Example: Logging state in game
