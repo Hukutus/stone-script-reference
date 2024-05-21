@@ -62,7 +62,20 @@
 | 32 | 33 | Attack, pre-damage | 33 |
 | 33 | 66 | Attack, post-damage | 2 |
 
-#### Bronze Guardian
+#### Caves of Fear
+##### Bolesh
+
+#### Mushroom Forest
+##### Angry Shroom
+
+##### Morel & Enoki
+
+#### Haunted Halls
+##### Pallas Phase 1
+##### Pallas Phase 2
+
+#### Boiling Mine
+##### Bronze Guardian
 
 | State | Time | Description |
 |-|-|-|
@@ -72,10 +85,14 @@
 | 32 | 35 | Attack, pre-damage|
 | 33 | 239 | Attack, post-damage (hammer down) |
 
+#### Icy Ridge
+##### Hrimnir
 
-#### Dysangelos
+#### Temple
+##### Nagaraja
 
-##### Phase 1
+#### Rocky Plateau
+##### Dysangelos Phase 1
 
 | State | Time | Description |
 |-|-|-|
@@ -94,7 +111,7 @@
 | 32 | 30 | Laser eye, pre-damage |
 | 33 | 65 | Laser eye, post-damage |
 
-##### Phase 2
+##### Dysangelos Phase 2
 
 | State | Time | Description |
 |-|-|-|
@@ -105,7 +122,7 @@
 | 32 | 59 | Attack, pre-damage |
 | 33 | 24 | Attack, post-damage |
 
-##### Phase 3
+##### Dysangelos Phase 3
 
 | State | Time | Description |
 |-|-|-|
