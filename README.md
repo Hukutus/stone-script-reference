@@ -93,7 +93,7 @@
 | 2 | 59 | Idle |
 | 32 | 49 | Attack 1, pre-damage |
 | 33 | 23 | Attack 1, post-damage |
-| 32 | 29 | Attack 2, pre-damage |
+| 32 | 29 | Attack 2 (stun & shield), pre-damage |
 | 33 | 65 | Attack 2, post-damage |
 | 106 | 8 | Cast adaptive defense buff |
 | 107 | 299 | Transformation |
