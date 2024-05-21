@@ -20,7 +20,7 @@ TODO: Add description of the game and the language
 | 0 | Idle, off screen |
 | 1 | Idle, on screen |
 | 2 | Encountered |
-| 32 | Preparing to attack |
+| 32 | Preparing attack |
 | 33 | Attack complete |
 
 
@@ -30,6 +30,8 @@ TODO: Add description of the game and the language
 
 | State | Time | Description |
 |-|-|-|
-| 0 | 0 | Walking |
-| 1 | 0 | Idle |
-| 3 | 0 | Dead |
+| 1 | 333 | Walking |
+| 2 | 299 | Idle |
+| 32 | 35 | Preparing attack |
+| 33 | 78 | Hammer down |
+
