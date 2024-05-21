@@ -43,11 +43,11 @@
 
 | State | Time | Description |
 |-|-|-|
-| 1 | 333 | Walking |
-| 2 | 299 | Standing still (1st time) |
-| 2 | 352 | Standing still |
-| 32 | 35 | Attacking |
-| 33 | 239 | Hammer down |
+| 1 | 333 | Waking up (walking) |
+| 2 | 299 | Idle (1st time) |
+| 2 | 352 | Idle |
+| 32 | 35 | Attacking, pre-damage|
+| 33 | 239 | Attacking, post-damamge (hammer down) |
 
 
 #### Dysangelos
