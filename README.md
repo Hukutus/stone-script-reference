@@ -39,6 +39,29 @@
 
 ### Bosses
 
+#### Deadwood Canyon
+
+##### Xyloalgia
+
+| State | Duration | Description | Next |
+|-|-|-|-|
+| 0 | 204 | Waking up | 1 |
+| 1 | 199 | Engaged | 2 |
+| 2 | 199 | Idle (1st time) | 32 |
+| 2 | 74 | Idle | 32 |
+| 32 | 33 | Attack, pre-damage | 33 |
+| 33 | 66 | Attack, post-damage | 2 |
+| 4 | 53 | Poena transformation | -1 |
+
+##### Poena
+
+| State | Duration | Description | Next |
+|-|-|-|-|
+| 1 | 119 | Waking up | 2 |
+| 2 | 119 | Engaged | 32 |
+| 32 | 33 | Attack, pre-damage | 33 |
+| 33 | 66 | Attack, post-damage | 2 |
+
 #### Bronze Guardian
 
 | State | Time | Description |
