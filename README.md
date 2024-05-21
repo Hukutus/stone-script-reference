@@ -17,17 +17,26 @@
 
 ## Weapons
 
+| State | Description |
+|-|-|
+| 0 | UI only |
+| 1 | Idle, waiting to be in range |
+| 2 | Attack, pre-damage |
+| 3 | Attack, post damage |
+| 4 | Cooldown |
+
 ## Foes
 
 | State | Description |
 |-|-|
 | -1 | No foe |
-| 0 | Idle, off screen |
-| 1 | Idle, on screen |
-| 2 | Encountered |
-| 32 | Attacking |
-| 33 | Attack complete |
-
+| 0 | Sleeping |
+| 1 | Waking up |
+| 2 | Engaged |
+| 32 | Attacking, pre-damage |
+| 33 | Attacking, post-damage |
+| 4 | Dead |
+| 100+ | Unique states |
 
 ### Bosses
 
@@ -36,9 +45,11 @@
 | State | Time | Description |
 |-|-|-|
 | 1 | 333 | Walking |
-| 2 | 299 | Idle |
+| 2 | 299 | Standing still (1st time) |
+| 2 | 352 | Standing still |
 | 32 | 35 | Attacking |
-| 33 | 78 | Hammer down |
+| 33 | 239 | Hammer down |
+
 
 #### Dysangelos
 
@@ -46,54 +57,54 @@
 
 | State | Time | Description |
 |-|-|-|
-| 100 | 171 | Dialogue |
-| 101 | 44 | Dialogue |
-| 102 | 19 | Dialogue |
-| 126 | 43 | Dialogue |
-| 127 | 279 | Dialogue |
-| 116 | 14 | Dialogue |
-| 117 | 59 | Dialogue |
-| 118 | 29 | Dialogue |
+| 100 | 171 | Transformation |
+| 101 | 44 | Transformation |
+| 102 | 19 | Transformation |
+| 126 | 43 | Transformation |
+| 127 | 279 | Transformation |
+| 116 | 14 | Transformation |
+| 117 | 59 | Transformation |
+| 118 | 29 | Transformation (battle starts) |
 | 2 | 29 | Idle (1st time) |
 | 2 | 59 | Idle |
-| 32 | 29 | Normal attack |
-| 33 | 24 | Normal attack complete |
-| 32 | 30 | Laser eye |
-| 33 | 65 | Laser eye complete |
+| 32 | 29 | Attack, pre-damage|
+| 33 | 24 | Attack, post-damage |
+| 32 | 30 | Laser eye, pre-damage |
+| 33 | 65 | Laser eye, post-damage |
 
 ##### Phase 2
 
 | State | Time | Description |
 |-|-|-|
 | 124 | 69 | Transformation |
-| 125 | 15 | Transformation |
+| 125 | 15 | Transformation (battle starts) |
 | 2 | 15 | Idle (1st time) |
 | 2 | 9 | Element change |
-| 32 | 59 | Attack |
-| 33 | 24 | Attack done |
+| 32 | 59 | Attack, pre-damage |
+| 33 | 24 | Attack, post-damage |
 
 ##### Phase 3
 
 | State | Time | Description |
 |-|-|-|
 | 107 | 149 | Transformation |
-| 108 | 15 | Transformation |
-| 2 | 15 | Idle |
-| 32 | 49 | Attack |
-| 33 | 23 | Attack done |
+| 108 | 15 | Transformation (battle starts) |
+| 2 | 15 | Idle (1st time) |
 | 2 | 59 | Idle |
-| 106 | 8 | Shield against element |
-| 107 | 299 | Transform to hover |
-| 108 | 13 | Transform back |
-| 0 | 326 | Post transform idle |
-| 2 | 326 | Post transform idle |
-| 109 | 59 | Laser eye 1 |
-| 110 | 14 | Laser eye 2 |
-| 111 | 89 | Laser eye 3 |
-| 112 | 123 | Laser eye 4 |
-| 113 | 44 | Laser eye 5 |
-| 114 | 14 | Laser eye 6 (damage)|
-| 115 | 89 | Laser eye 7 |
-| 0 | 447 | Post laser eye idle |
-| 2 | 447 | Post laser eye idle |
+| 32 | 49 | Attack, pre-damage |
+| 33 | 23 | Attack, post-damage |
+| 106 | 8 | Cast adaptive defense buff |
+| 107 | 299 | Transformation |
+| 108 | 13 | Transformation |
+| 0 | 326 | Post-transformation idle |
+| 2 | 326 | Post-transformation idle |
+| 109 | 59 | Orb 1 |
+| 110 | 14 | Orb 2 |
+| 111 | 89 | Orb 3 |
+| 112 | 123 | Orb 4 |
+| 113 | 44 | Orb 5 |
+| 114 | 14 | Orb 6, pre-damage |
+| 115 | 89 | Orb 7, post-damage |
+| 0 | 447 | Post-orb idle |
+| 2 | 447 | Post-orb idle |
 
