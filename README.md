@@ -74,7 +74,7 @@
 |-|-|-|-|
 | 1 | 269 | Emerging from nest | 2 |
 | 2 | 2 | Engaged | 100 |
-| 2 | 14 | Engaged | 133 |
+| 2 | 14 | Engaged | 133, 142|
 | 2 | 1 | Engaged (melee) | 133 |
 | 100 | 14 | Some animation? | 2 |
 | 101 | 14 | Buff (ranged) | 2 |
