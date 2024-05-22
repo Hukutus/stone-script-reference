@@ -46,8 +46,7 @@
 #### Deadwood Canyon
 - Element: None, weakness: None
 
-##### Xyloalgia
-
+  ##### Xyloalgia
 | State | Duration | Description | Next |
 |-|-|-|-|
 | 0 | 204 | Waking up | 1 |
@@ -58,8 +57,7 @@
 | 33 | 66 | Attack, post-damage | 2 |
 | 4 | 53 | Poena transformation | -1 |
 
-##### Poena
-
+  ##### Poena
 | State | Duration | Description | Next |
 |-|-|-|-|
 | 1 | 119 | Waking up | 2 |
@@ -70,8 +68,7 @@
 #### Caves of Fear
 - Element: Poison, weakness: Ice
 
-##### Bolesh
-
+  ##### Bolesh
 | State | Duration | Description | Next |
 |-|-|-|-|
 | 1 | 269 | Emerging from nest | 2 |
@@ -88,10 +85,10 @@
 
 *\* Data possibly affected by Chill debuff*
 
-
 #### Mushroom Forest
 - Element: Vigor, weakness: Poison
-##### Angry Shroom
+
+  ##### Angry Shroom
 | State | Duration | Description | Next |
 |-|-|-|-|
 | 1 | 99 | Waking up | 2 |
@@ -102,7 +99,7 @@
 
 *\* Data possibly affected by Chill debuff*
 
-##### Morel & Enoki
+  ##### Morel & Enoki
 | State | Duration | Description | Next |
 |-|-|-|-|
 | 2 | 179 | Engaged (1st time) | 32 |
@@ -116,13 +113,15 @@
 
 #### Haunted Halls
 - Element: Æther, weakness: Vigor
-##### Pallas Phase 1
-##### Pallas Phase 2
+
+  ##### Pallas Phase 1
+
+  ##### Pallas Phase 2
 
 #### Boiling Mine
 - Element: Fire, weakness: Æther
-##### Bronze Guardian
 
+  ##### Bronze Guardian
 | State | Time | Description |
 |-|-|-|
 | 1 | 333 | Waking up (walking) |
@@ -133,16 +132,17 @@
 
 #### Icy Ridge
 Element: Ice, weakness: Fire
-##### Hrimnir
+
+  ##### Hrimnir
 
 #### Temple
 Element: Poison, weakness: Ice
-##### Nagaraja
+  ##### Nagaraja
 
 #### Rocky Plateau
 Element: Varies
-##### Dysangelos Phase 1
 
+  ##### Dysangelos Phase 1
 | State | Time | Description |
 |-|-|-|
 | 100 | 171 | Transformation |
@@ -160,8 +160,7 @@ Element: Varies
 | 32 | 30 | Laser eye, pre-damage |
 | 33 | 65 | Laser eye, post-damage |
 
-##### Dysangelos Phase 2
-
+  ##### Dysangelos Phase 2
 | State | Time | Description |
 |-|-|-|
 | 124 | 69 | Transformation |
@@ -171,8 +170,7 @@ Element: Varies
 | 32 | 59 | Attack, pre-damage |
 | 33 | 24 | Attack, post-damage |
 
-##### Dysangelos Phase 3
-
+  ##### Dysangelos Phase 3
 | State | Time | Description |
 |-|-|-|
 | 107 | 149 | Transformation |
