@@ -86,7 +86,7 @@
 | 142 | 37* | Melee attack, post-damage | 143 |
 | 143 | 24* | Melee attack, post-damage | 2 |
 
-* Data possibly affected by Chill debuff
+*\* Data possibly affected by Chill debuff*
 
 
 #### Mushroom Forest
@@ -100,7 +100,7 @@
 | 33 | 36* | Attack, post-damage | 2 |
 | 4 | 8 | Transformation | 2 |
 
-* Data possibly affected by Chill debuff
+*\* Data possibly affected by Chill debuff*
 
 ##### Morel & Enoki
 | State | Duration | Description | Next |
@@ -112,7 +112,7 @@
 | 33 | 24* | Attack, Enoki, post-damage | 32 |
 | 4 | 42 | Death, Morel |  |
 
-* Data possibly affected by Chill debuff
+*\* Data possibly affected by Chill debuff*
 
 #### Haunted Halls
 - Element: Æther, weakness: Vigor
