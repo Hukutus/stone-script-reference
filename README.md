@@ -1,6 +1,7 @@
 # Stone Story RPG Stonescript Reference
 
-- **Note:** Durations may differ depending on distance from foe
+- **Note:** Durations may differ depending on distance from foe.
+- Some durations might be incorrect (Bolesh, Mushrooms) due to usage of Ice weapons during data collection.
 
 [Official Stonescript manual](https://stonestoryrpg.com/stonescript/manual.html)
 
@@ -10,6 +11,7 @@
 - [ ] Add all bosses
 - [ ] Add all foes with special states
 - [ ] Add example code
+- [ ] Make sure all data is collected without inflicting debuffs on foes (Bolesh, Mushrooms)
 
 ## Example: Logging state in game
 ```
@@ -79,17 +81,38 @@
 | 100 | 14 | Some animation? | 2 |
 | 101 | 14 | Buff (ranged) | 2 |
 | 104 | 29 | Debuff (melee) | 2 |
-| 133 | 69 | Ranged attack, pre-damage | 2 |
+| 133 | 69* | Ranged attack, pre-damage | 2 |
 | 2 | 0 | Ranged attack, post-damage | 133 |
-| 142 | 37 | Melee attack, post-damage | 143 |
-| 143 | 24 | Melee attack, post-damage | 2 |
+| 142 | 37* | Melee attack, post-damage | 143 |
+| 143 | 24* | Melee attack, post-damage | 2 |
+
+* Data possibly affected by Chill debuff
 
 
 #### Mushroom Forest
 - Element: Vigor, weakness: Poison
 ##### Angry Shroom
+| State | Duration | Description | Next |
+|-|-|-|-|
+| 1 | 99 | Waking up | 2 |
+| 2 | 0 | Engaged | 32 |
+| 32 | 69* | Attack, pre-damage | 33 |
+| 33 | 36* | Attack, post-damage | 2 |
+| 4 | 8 | Transformation | 2 |
+
+* Data possibly affected by Chill debuff
 
 ##### Morel & Enoki
+| State | Duration | Description | Next |
+|-|-|-|-|
+| 2 | 179 | Engaged (1st time) | 32 |
+| 32 | 29* | Attack, Morel, pre-damage | 33 |
+| 33 | 29* | Attack, Morel, post-damage | 32 |
+| 32 | 22* | Attack, Enoki, pre-damage | 33 |
+| 33 | 24* | Attack, Enoki, post-damage | 32 |
+| 4 | 42 | Death, Morel |  |
+
+* Data possibly affected by Chill debuff
 
 #### Haunted Halls
 - Element: Æther, weakness: Vigor
