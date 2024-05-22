@@ -1,5 +1,7 @@
 # Stone Story RPG Stonescript Reference
 
+- **Note:** Durations may differ depending on distance from foe
+
 [Official Stonescript manual](https://stonestoryrpg.com/stonescript/manual.html)
 
 ## TODO
@@ -40,6 +42,7 @@
 ### Bosses
 
 #### Deadwood Canyon
+- Element: None, weakness: None
 
 ##### Xyloalgia
 
@@ -63,18 +66,38 @@
 | 33 | 66 | Attack, post-damage | 2 |
 
 #### Caves of Fear
+- Element: Poison, weakness: Ice
+
 ##### Bolesh
 
+| State | Duration | Description | Next |
+|-|-|-|-|
+| 1 | 269 | Emerging from nest | 2 |
+| 2 | 2 | Engaged | 100 |
+| 2 | 14 | Engaged | 133 |
+| 2 | 1 | Engaged (melee) | 133 |
+| 100 | 14 | Some animation? | 2 |
+| 101 | 14 | Buff (ranged) | 2 |
+| 104 | 29 | Debuff (melee) | 2 |
+| 133 | 69 | Ranged attack, pre-damage | 2 |
+| 2 | 0 | Ranged attack, post-damage | 133 |
+| 142 | 37 | Melee attack, post-damage | 143 |
+| 143 | 24 | Melee attack, post-damage | 2 |
+
+
 #### Mushroom Forest
+- Element: Vigor, weakness: Poison
 ##### Angry Shroom
 
 ##### Morel & Enoki
 
 #### Haunted Halls
+- Element: Æther, weakness: Vigor
 ##### Pallas Phase 1
 ##### Pallas Phase 2
 
 #### Boiling Mine
+- Element: Fire, weakness: Æther
 ##### Bronze Guardian
 
 | State | Time | Description |
@@ -86,12 +109,15 @@
 | 33 | 239 | Attack, post-damage (hammer down) |
 
 #### Icy Ridge
+Element: Ice, weakness: Fire
 ##### Hrimnir
 
 #### Temple
+Element: Poison, weakness: Ice
 ##### Nagaraja
 
 #### Rocky Plateau
+Element: Varies
 ##### Dysangelos Phase 1
 
 | State | Time | Description |
@@ -139,13 +165,13 @@
 | 108 | 13 | Transformation |
 | 0 | 326 | Post-transformation idle |
 | 2 | 326 | Post-transformation idle |
-| 109 | 59 | Orb 1 |
-| 110 | 14 | Orb 2 |
-| 111 | 89 | Orb 3 |
-| 112 | 123 | Orb 4 |
-| 113 | 44 | Orb 5 |
-| 114 | 14 | Orb 6, pre-damage |
-| 115 | 89 | Orb 7, post-damage |
-| 0 | 447 | Post-orb idle |
-| 2 | 447 | Post-orb idle |
+| 109 | 59 | Super Energy Ball 1 |
+| 110 | 14 | Super Energy Ball 2 |
+| 111 | 89 | Super Energy Ball 3 |
+| 112 | 123 | Super Energy Ball 4 |
+| 113 | 44 | Super Energy Ball 5 |
+| 114 | 14 | Super Energy Ball 6, pre-damage |
+| 115 | 89 | Super Energy Ball 7, post-damage |
+| 0 | 447 | Sleeping, post Super Energy Ball |
+| 2 | 447 | Idle, post Super Energy Ball |
 
